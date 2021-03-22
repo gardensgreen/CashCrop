@@ -1,1 +1,25 @@
 /* TODO Add site wide styles */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 20px;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
